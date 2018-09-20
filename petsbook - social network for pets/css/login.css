@@ -1,0 +1,138 @@
+
+
+/*  input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*  buttons */
+
+button {
+
+    background-color: #3BF6CE;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 50% 0 0;
+    border: solid #B4B7B7 1px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+
+
+/* position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 20px 20px;
+    position: relative;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The log-in Form (background) */
+
+.loginForm, .signupForm {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(226, 226, 226,0.70);
+
+    padding-top: 60px;
+
+}
+
+
+
+/* Log-in Content/Box */
+
+.loginBox {
+  /*  background: linear-gradient(60deg, #CACCCC 60%, #E8F1F1 60%); */
+    background: rgba(168, 168, 168, 0.70);
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%;
+
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #3BF6CE;
+    cursor: pointer;
+}
+
+/* Anchors */
+
+a {
+  color: #323233;
+
+}
+
+a:hover {
+
+  color: black;
+
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;}
+
+
+/* Page style */
+
+#petLog {
+  width: 90%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.logText p {
+
+  text-align: center;
+
+}
+    }
+}
